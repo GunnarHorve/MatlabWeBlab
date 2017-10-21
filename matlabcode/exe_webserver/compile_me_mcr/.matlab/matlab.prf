@@ -1,0 +1,24 @@
+#MATLAB Preferences
+#Sat Oct 21 13:45:45 EDT 2017
+DelimiterOptionsTypingMisMatchType=I5
+MatlabExitConfirm=Bfalse
+DelimiterOptionsMoving=Btrue
+DelimiterOptionsMovingMisMatchType=I5
+DelimiterOptionsTypingMatchType=I3
+RLOrderB2_WB_2014b_1=S0:1:
+RLHiddenB2_WB_2014b_1=I16376
+DelimiterOptionsMovingMatchType=I1
+GeneralEightyColumns=Bfalse
+CommandWindowClearConfirmation=Btrue
+CurrentKeyBindingSet=SWindows
+GeneralNumDisplay=Sloose
+RLWidthB2_WB_2014b_1_1=I130
+RLWidthB2_WB_2014b_1_0=I130
+EditorMRU5=S/home/gunnar/MatlabWeBlab/matlabcode/createMatlabServer.m
+EditorMRU4=S/home/gunnar/MatlabWeBlab/matlabcode/userguide.m
+EditorMRU3=S/home/gunnar/MatlabWeBlab/matlabcode/test.m
+EditorMRU2=S/home/gunnar/MatlabWeBlab/matlabcode/compile_me.m
+EditorMRU1=S/home/gunnar/MatlabWeBlab/matlabcode/javaclasspath.txt
+RLPrevInitB2_WB_2014b_1=Btrue
+DelimiterOptionsTyping=Btrue
+GeneralNumFormat2=Sshort
