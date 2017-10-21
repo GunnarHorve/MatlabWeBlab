@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5">
+
+  <display-name>Modelit matlab server</display-name>
+  <description>
+     Connecting java servlets with Matlab
+  </description>
+
+    <servlet>
+      	<init-param>
+      		<param-name>port</param-name>
+      		<param-value>4444,4445</param-value>
+      	</init-param>
+
+        <servlet-name>servlet1</servlet-name>
+        <servlet-class>nl.modelit.matlabserver.MatlabServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servlet1</servlet-name>
+        <url-pattern>/HelloWorlds</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>servlet1</servlet-name>
+        <url-pattern>/hi</url-pattern>
+    </servlet-mapping>
+
+</web-app>
